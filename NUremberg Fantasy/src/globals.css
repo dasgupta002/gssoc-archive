@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+* ::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.hero {
+    background-color: cornsilk;
+}
+
+.hero-left {
+    padding: 22rem 0rem;
+}
+
+.hero-heading {
+    text-align: justify;
+    margin-bottom: 2rem;
+}  
+
+.hero-right {
+    padding: 11rem 0rem;
+}
+
+.hero img {
+    width: 40rem;
+    height: 40rem;
+    object-fit: cover;
+}
+
+section {
+    background-color: aliceblue;
+}
+
+form {
+    padding: 11rem 0rem;
+}
+
+span {
+    border: 2px solid yellow;
+    padding: 0.7rem 1.2rem;
+    margin-right: 2.2rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+span:hover {
+    background-color: yellow;
+}
+
+.current {
+    background-color: yellow;
+}
+
+.trivia {
+    border: 2px solid red;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    margin-top: 4rem;
+    text-align: justify;
+}
